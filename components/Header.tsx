@@ -1,6 +1,6 @@
 'use client'
 
-import { Bars3Icon, ChatBubbleLeftIcon, HomeIcon, PaperAirplaneIcon } from "@heroicons/react/24/solid";
+import { Bars3Icon, ChatBubbleLeftIcon, HomeIcon, PaperAirplaneIcon, PhoneIcon, PlayCircleIcon } from "@heroicons/react/24/solid";
 import Image from "next/image";
 import Link from "next/link";
 import { Fragment, useState } from "react";
@@ -26,7 +26,12 @@ const products = [
     href: "#",
     icon: ChatBubbleLeftIcon,
   }
-]
+];
+
+const callsToAction = [
+  { name: "See Demo Booking", href: "#", icon: PlayCircleIcon},
+  { name: "Contact Support", href: "#", icon: PhoneIcon},
+];
 
 export default function Header () {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -99,6 +104,20 @@ export default function Header () {
                         <p className="mt-1 text-[#013B94]">{item.description}</p>
                       </div>
                   </div>
+                ))}
+              </div>
+              <div className="grid grid-cols-2 divide-x divide-gray-900/5 bg-gray-50">
+                {callsToAction.map((item)=> (
+                  <a
+                    key={item.name}
+                    href={item.href}
+                    className="flex items-center justify-center gap-x-2.5 p-3 text-sm font-semibold leading-6 text-[#013B94] hover:bg-gray-100"
+                  >
+                    <item.icon
+                      className="h-5 w-5 flex-none text-[#013B94]" aria-hidden="true"
+                    />
+                    {item.name}
+                  </a>
                 ))}
               </div>
           </Popover.Panel>
