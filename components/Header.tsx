@@ -82,7 +82,7 @@ export default function Header () {
             leaveTo="opacity-0 translate-y-1"
           >
              <Popover.Panel
-              className="absolute bg-white top-full -left-96 z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl shadow-lg ring-1 ring-gray-900/5"
+              className="absolute bg-white top-full -left-8 z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl shadow-lg ring-1 ring-gray-900/5"
              >
               <div className="p-4">
                 {products.map((item) => (
@@ -123,7 +123,16 @@ export default function Header () {
           </Popover.Panel>
           </Transition>
         </Popover>
+        <a href="#" className="text-sm font-semibold leading-6 text-white">Flights</a>
+        <a href="#" className="text-sm font-semibold leading-6 text-white">Car Rentals</a>
+        <a href="#" className="text-sm font-semibold leading-6 text-white">Attractions</a>
+        <a href="#" className="text-sm font-semibold leading-6 text-white">Flight + Hotel</a>
       </Popover.Group>
+      <div className="hidden lg:flex lg:flex-1 lg:justify-end">
+        <a href="#" className="text-sm font-semibold leading-6 text-white">
+          Log in <span aria-hidden="true">&rarr;</span>
+        </a>
+      </div>
     </nav>
    </header>
   )
