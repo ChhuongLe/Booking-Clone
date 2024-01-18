@@ -16,5 +16,10 @@ export type SearchParams = {
 
 export default function SearchPage({ searchParams }: Props) {
   if(!searchParams.url) return notFound();
+
+  const results = await fetchResults(searchParams);
+
+  if(!results) return <div>No Results...</div>
+
   return <div>SearchPage</div>
 }
