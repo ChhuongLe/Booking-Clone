@@ -27,10 +27,10 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+I decided to make a clone of Booking to learn more about scraping the web for data. This way I could learn what it is like to gather data from different sources and apply it to my own web application.
 ![Booking Webpage](https://i.imgur.com/cr7AZ3F.png)
 
-I decided to make a clone of Booking to learn more about scraping the web for data. This way I could learn what it is like to gather data from different sources and apply it to my own web application.
-
+When all the form information is completed and the user searches for results, Oxylabs API will perform a scrape from the Booking.com website and return with reviews and cost.
 ![Booking Search Options](https://i.imgur.com/7yRNyVh.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -112,8 +112,8 @@ Useful resources that were used in this build
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[Next.js]: - [] Create header component
 
+[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
