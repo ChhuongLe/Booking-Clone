@@ -27,9 +27,11 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![Booking Webpage](https://imgur.com/WWmeyQt.jpg)
+![Booking Webpage](https://i.imgur.com/cr7AZ3F.png)
 
 I decided to make a clone of Booking to learn more about scraping the web for data. This way I could learn what it is like to gather data from different sources and apply it to my own web application.
+
+![Booking Search Options](https://i.imgur.com/7yRNyVh.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -57,11 +59,9 @@ Requires npm
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
 1. Clone the repo
    ```sh
-   git clone https://github.com/ChhuongLe/Dropbox-Clone
+   git clone https://github.com/ChhuongLe/Booking-Clone
    ```
 2. Install NPM packages
    ```sh
@@ -80,10 +80,10 @@ No examples yet, To Be Edited later
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Create header component
-- [ ] Build out homepage
-- [ ] Build out web scraper
-- [ ] Gather data and add to app
+- [x] Create header component
+- [x] Build out homepage
+- [x] Build out web scraper
+- [x] Gather data and add to app
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -101,10 +101,10 @@ Project Link: [https://github.com/ChhuongLe/Booking-Clone](https://github.com/Ch
 
 Useful resources that were used in this build
 
-* [React Drop Zone](https://react-dropzone.js.org/)
 * [Shadcn/ui](https://ui.shadcn.com/)
 * [NextJS](https://nextjs.org/)
 * [TailwindCSS](https://tailwindcss.com/)
+* [Oxylabs](https://oxylabs.io/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -112,7 +112,8 @@ Useful resources that were used in this build
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+[Next.js]: - [] Create header component
+
 [Next-url]: https://nextjs.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
@@ -124,3 +125,5 @@ Useful resources that were used in this build
 [Tailwind-url]: https://tailwindcss.com/
 [Shadcn/ui]: https://img.shields.io/badge/shadcn-black?style=for-the-badge&logo=shad&logoColor=white
 [Shadcn/ui-url]: https://ui.shadcn.com/
+[Oyxlab]:https://img.shields.io/badge/oxylabs-green?style=for-the-badge&logo=clerk&logoColor=white
+[Oxylab-url]:https://oxylabs.io/
