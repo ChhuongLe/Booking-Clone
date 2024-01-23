@@ -41,6 +41,7 @@ When all the form information is completed and the user searches for results, Ox
 * [![React][React.js]][React-url]
 * [![TailwindCSS][TailwindCSS]][Tailwind-url]
 * [![Shadcn/ui][Shadcn/ui]][Shadcn/ui-url]
+* [![Oyxlab][Oxylab]][Oxylab-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
